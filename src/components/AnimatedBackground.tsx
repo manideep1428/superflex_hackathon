@@ -23,7 +23,7 @@ const AnimatedBackground = () => {
     const shapes: Shape[] = Array.from({ length: 20 }, () => ({
       x: Math.random() * 100,
       y: Math.random() * 100,
-      size: Math.random() * 100 + 30,
+      size: Math.random() * 106 + 30,
       speed: Math.random() * 1.5 + 0.5,
       color: `hsla(${Math.random() * 360}, 70%, 70%, 0.2)`,
       rotation: Math.random() * 360,
