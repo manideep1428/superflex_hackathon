@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import { ArrowDown, Sparkles, Code, Rocket } from 'lucide-react';
 import AnimatedBackground from './components/AnimatedBackground';
 import MouseLight from './components/MouseLight';
@@ -35,16 +35,17 @@ function App() {
           <div ref={parallaxRef} className="max-w-4xl mx-auto text-center">
             <div className="mb-8 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm scale-in">
               <Sparkles className="w-5 h-5" />
-              <span className="text-sm font-medium">Welcome to the future</span>
+              <span className="text-sm font-medium">Welcome to the SuperFlex</span>
             </div>
             <h1 className="text-6xl md:text-8xl font-bold mb-6 text-glow fade-in-up delay-1">
-              Innovation
+              
+              SuperFlex
               <span className="block text-4xl md:text-6xl mt-2 text-white/90 fade-in-up delay-2">
-                Starts Here
+               Innovation Starts Here
               </span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 opacity-90 fade-in-up delay-3">
-              Transform your ideas into reality with cutting-edge technology
+              Transform your ideas into reality with your AI Engineer
             </p>
             <button className="bg-white/20 backdrop-blur-sm text-white px-8 py-3 rounded-full font-semibold 
                              transform transition-all duration-300 hover:scale-105 hover:bg-white/30

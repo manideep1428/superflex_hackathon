@@ -1,4 +1,3 @@
-import React from 'react';
 import { Heart, Mail, Sparkles, Github, Twitter, Linkedin } from 'lucide-react';
 
 const Footer = () => {
@@ -13,7 +12,7 @@ const Footer = () => {
               <span className="text-xl font-bold">FutureVision</span>
             </div>
             <p className="text-sm text-white/80">
-              Pushing the boundaries of web innovation with cutting-edge technology and design.
+              Pushing the boundaries of web innovation with AI Engineer(SuperFlex) and design.
             </p>
           </div>
 
@@ -33,7 +32,7 @@ const Footer = () => {
             <div className="space-y-2">
               <a href="mailto:hello@futurevision.dev" className="flex items-center space-x-2 text-white/80 hover:text-blue-400 transition-colors">
                 <Mail size={16} />
-                <span>hello@futurevision.dev</span>
+                <span>saimanideep.ch12345@gmail.com</span>
               </a>
             </div>
           </div>
@@ -42,15 +41,15 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Connect</h3>
             <div className="flex space-x-4">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" 
+              <a href="https://github.com/manideep1428" target="_blank" rel="noopener noreferrer" 
                  className="text-white/80 hover:text-blue-400 transition-colors">
                 <Github size={20} />
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"
+              <a href="https://twitter.com/manideep1428" target="_blank" rel="noopener noreferrer"
                  className="text-white/80 hover:text-blue-400 transition-colors">
                 <Twitter size={20} />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+              <a href="https://linkedin.com/in/manideep1428" target="_blank" rel="noopener noreferrer"
                  className="text-white/80 hover:text-blue-400 transition-colors">
                 <Linkedin size={20} />
               </a>
@@ -61,7 +60,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-white/10 text-center">
           <p className="text-white/60 text-sm flex items-center justify-center">
-            Made with <Heart size={16} className="mx-2 text-red-400" /> by FutureVision
+            Made with <Heart size={16} className="mx-2 text-red-400" /> by Manideep
           </p>
         </div>
       </div>

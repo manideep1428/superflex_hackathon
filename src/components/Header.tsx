@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Menu, X, Sparkles, Github, Twitter } from 'lucide-react';
 
 const Header = () => {
@@ -72,14 +72,14 @@ const NavLinks = ({ mobile }: { mobile?: boolean }) => {
 
   return (
     <>
-      <a href="#features" className={classes}>Features</a>
-      <a href="#about" className={classes}>About</a>
-      <a href="#contact" className={classes}>Contact</a>
+      <a href="https://www.superflex.ai/" className={classes}>Features</a>
+      <a href="https://www.superflex.ai/" className={classes}>About</a>
+      <a href="https://github.com/manideep1428" className={classes}>Contact</a>
       <div className={`flex items-center gap-4 ${mobile ? 'mt-4' : ''}`}>
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer" className={classes}>
+        <a href="https://github.com/manideep1428/superflex_hackathon" target="_blank" rel="noopener noreferrer" className={classes}>
           <Github size={20} />
         </a>
-        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className={classes}>
+        <a href="https://twitter.com/manideep1428" target="_blank" rel="noopener noreferrer" className={classes}>
           <Twitter size={20} />
         </a>
       </div>
