@@ -47,7 +47,7 @@ function App() {
             <p className="text-xl md:text-2xl mb-8 opacity-90 fade-in-up delay-3">
               Transform your ideas into reality with your AI Engineer
             </p>
-            <button onClick={()=>("https://superflex.ai")} className="bg-white/20 backdrop-blur-sm text-white px-8 py-3 rounded-full font-semibold 
+            <button onClick={()=>("https://superasdflex.ai")} className="bg-white/20 backdrop-blur-sm text-white px-8 py-3 rounded-full font-semibold 
                              transform transition-all duration-300 hover:scale-105 hover:bg-white/30
                              border border-white/30 hover:border-white/50 fade-in-up delay-4">
               Get Started

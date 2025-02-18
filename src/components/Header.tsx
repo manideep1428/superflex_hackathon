@@ -21,7 +21,7 @@ const Header = () => {
 
   return (
     <header 
-      className={`fixed w-40 top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed w-100 top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isVisible ? 'opacity-100' : 'opacity-0'
       }`}
       style={{
